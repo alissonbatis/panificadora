@@ -466,7 +466,14 @@ h4{
     }
 }
 
-
+@media (max-width:1250px){
+    .blocoSliderETexto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}
 @media(max-width: 1024px){
     main {
         display: flex;
@@ -477,12 +484,7 @@ h4{
     cite p {
         font-size: 1.5em;
     }
-    .blocoSliderETexto{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
-    }
+    
     .textoslide{
         width: 700px;
         height: 150px;
@@ -519,11 +521,15 @@ h4{
         gap: 0px;
     }
 }
+@media (min-width:1024px){
+    #blocoInfo{
+        gap: 40px;
+            
+    }
+}
 @media (min-width: 1440px){
     .blocoSliderETexto{
         gap: 160px;
     }
-    #blocoInfo{
-        gap: 30px;
-    }
+    
 }
